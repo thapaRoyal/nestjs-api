@@ -22,7 +22,7 @@ model User {
   lastName String?
 }
 
-model  Bookmark {
+model Bookmark {
   id Int @id @default(autoincrement())
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
